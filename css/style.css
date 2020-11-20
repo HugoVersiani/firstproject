@@ -1,0 +1,350 @@
+/* Formatações Gerais */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+nav, ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+.DisplayFlex {
+	display: flex;
+}
+
+.SpaceBetween {
+	justify-content: space-between;
+}
+
+.AlignCenter {
+	align-items: center;
+}
+
+/* Header */
+
+html {
+	scroll-behavior: smooth;
+}
+
+header {
+	width: 1366px;
+	height: 76px;
+	background-color: #FFFFFF;
+	padding: 0 150px 0 145px;
+	position: fixed;
+	top:0;
+	z-index: 999;
+}
+
+header li a.a-hover {
+	color: #1A2028;
+	font-family: 'Poppins', Sans-serif;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.a-hover:hover {
+	color: #8897C7;
+	transition: 0.3s;
+
+}
+
+header li {
+	margin: 0 43.5px;
+}
+
+header li:first-child {
+	margin-left: 0;
+}
+
+header li:last-chil {
+	margin-right: 0;
+}
+
+@media (max-width: 700px) {
+	header {
+		flex-direction: column;
+	}
+	header img {
+		margin-bottom: 15px;
+		margin-top: 40px;
+	}
+}
+
+/* Conteudo */
+
+.bg {
+	width: 1366px;
+	height: 685px;
+
+}
+
+.divleft {
+	width: 683px;
+	height: 685px;
+	background-color: #ffffff;
+}
+.img {
+	width: 683px;
+	height: 685px;
+	background-color: #ffffff;
+
+}
+
+.titulo {
+	width: 479px;
+	height: 166px;
+	position: absolute;
+	top: 190px;
+	left: 202px;
+}
+
+.subtext {
+	width: 479px;
+	height: 166px;
+	position: absolute;
+	top: 380px;
+	left: 202px;
+
+}
+
+div img {
+	width: 30%;
+	position: absolute;
+	top: 120px;
+	right: 180px;
+}
+
+h1 {
+	
+	font-family: 'Poppins', Sans-serif;
+	font-size: 46px;
+	color: #1A2028;
+	line-height: 55px;
+	letter-spacing: 2px;
+	font-weight: 300;
+}
+
+h3 {
+	font-family: 'Poppins', Sans-serif;
+	font-size: 14px;
+	color: #1A2028;
+	line-height: 22px;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+footer {
+	position: relative;
+	right: 1000px;
+
+}
+footer img {
+	position: relative;
+	top: 600px;
+	left: 500px;
+	width: 150%
+}
+
+.button {
+	width: 315px;
+	height: 42px;
+	position: absolute;
+	top: 450px;
+	left: 204px;
+}
+
+
+button {
+	width: 147px;
+	height: 42px;
+	box-shadow: none;
+	border: 1px solid #1A2028;
+	border-radius: 4px;
+}
+
+
+.button-first {
+	background-color: #6477B6;
+	border: none;
+	
+}
+
+button a {
+	font-family: 'Poppins', Sans-serif;
+	color: #1A2028;
+	font-size: 14px;
+
+}
+
+
+button.button-first a {
+	color: white;
+	font-family: 'Poppins', Sans-serif;
+	font-size: 14px;
+
+}
+
+
+.divleft2 {
+	width: 910px;
+	height: 685px;
+}
+
+.divserv {
+	position: absolute;
+	left: 100px;
+	top: 760px;
+
+}
+
+div.divserv h4 {
+	font-family: 'Poppins', Sans-serif;
+	font-size: 14px;
+	color: #9ea6b2;
+	font-weight: 400;
+}
+
+.txth1 {
+	width: 640px;
+	position: absolute;
+	left: 100px;
+	top: 800px;
+}
+
+.txth3 {
+	width: 655px;
+	position: absolute;
+	left: 100px;
+	top: 950px;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	background-color: #F2F5FF;
+	margin: 5px;
+
+}
+
+.box:hover {
+	background-color: #b2c1f4;
+	transition: 0.5s;
+}
+
+.boxcontent {
+	position: absolute;
+	top: 1050px;
+	left: 95px;
+}
+
+div.box1 img {
+	width: 20px;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}
+
+div.box2 img {
+	width: 20px;
+	position: absolute;
+	left: 185px;
+	top: 25px;
+}
+
+
+div.box3 img {
+	width: 20px;
+	position: absolute;
+	left: 345px;
+	top: 25px;
+}
+
+
+div.box4 img {
+	width: 20px;
+	position: absolute;
+	left: 505px;
+	top: 25px;
+}
+
+div.texth4 h4 {
+	font-family: 'Poppins', Sans-serif;
+	font-weight: 400;
+	font-size: 14px
+}
+
+.texth4 {
+	position: absolute;
+	top: 100px;
+	padding-left: 20px;
+	width: 80px;
+}
+
+.b2 {
+	position: absolute;
+	top: 1240px;
+	left: 100px;
+	width: 225px;
+	padding: 0 5px;
+	border: none;
+	background-color: #6477B6;
+	border-radius: 2px;
+
+}
+
+button.b2 a {
+	color: white;
+	font-family: 'Poppins', 
+
+}
+
+.imgsc3 {
+	position: absolute;
+}
+
+div.imgsc3 {
+	width: 90%;
+	right: 680px;
+	top: 1400px;
+}
+
+.divsobrn {
+	position: absolute;
+	left: 600px;
+	top: 1570px;
+}
+
+div.divsobrn h4{
+	font-family: 'Poppins', Sans-serif;
+	font-size: 14px;
+	color: #9ea6b2;
+	font-weight: 400;
+}
+
+.divtxth1 {
+	position: absolute;
+	top: 1600px;
+	left: 600px;
+	width: 500px;
+}
+
+
+.divtxth3 {
+	position: absolute;
+	top: 1730px;
+	left: 600px;
+	width: 550px;
+}
+
+

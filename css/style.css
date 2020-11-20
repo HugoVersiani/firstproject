@@ -348,3 +348,42 @@ div.divsobrn h4{
 }
 
 
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contato {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	left: 750px;
+	top: 2250px;
+}
+.field {
+	padding: 10px;
+	margin: 20px 0;
+}
+
+.enviar {
+	font-family: 'Poppins', Sans-serif;
+	background-color: #6477B6;
+	padding: 10px;
+	border: none;
+	color: white;
+	border-radius: 2px;
+}
+
+.contato-h1 {
+	position: absolute;
+	top: 2250px;
+	left: 95px
+
+}
+
+.contato-h3 {
+	position: absolute;
+	top: 2390px;
+	left: 95px
+
+}
